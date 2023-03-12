@@ -258,7 +258,7 @@ end
 
 ##################################STRING
 
-string = "          this is a string   variable    "
+# string = "          this is a string   variable    "
 
 # puts string
 
@@ -284,7 +284,7 @@ string = "          this is a string   variable    "
 
 ####################################ARRAY
 
-# arr=[1,2,8,4,5,6,6]
+# arr=[1,2,8,4,5,6,6,8]
 
 # arr2=[4,6,7,4]
 
