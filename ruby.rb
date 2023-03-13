@@ -368,13 +368,29 @@ puts i
 
 
 
-class A
-   def one 
-      puts "A"
-   end
-   undef one
+# class A
+#    def one 
+#       puts "A"
+#    end
+#    undef one
   
-end
+# end
 
-puts A.new.one
-# puts a.one
+# puts A.new.one
+# # puts a.one
+
+
+###########################################MODULES
+
+
+module Cream 
+   def cream 
+      true
+   end
+   
+end
+class Cookie 
+   include Cream
+end
+c= Cookie.new
+puts c.cream
