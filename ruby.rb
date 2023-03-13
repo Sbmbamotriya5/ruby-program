@@ -284,7 +284,7 @@ end
 
 ####################################ARRAY
 
-# arr=[1,2,8,4,5,6,6,8]
+arr=[1,2,8,4,5,6,6,8]
 
 # arr2=[4,6,7,4]
 
@@ -302,7 +302,7 @@ end
 
 # puts arr.shift #permannt remove 1st index
 
-# puts arr.unshift
+# puts arr.unshift  #permanent add ist index
 
 # puts arr.push
 
@@ -313,6 +313,7 @@ end
 # puts arr.include?(3)
 
 # puts arr.join('*')
+
 
 
 
